@@ -1,5 +1,8 @@
 # Axios npm Supply Chain Attack — Detection & Protection Guide
 
+Disclaimer!
+This project is not owned by Wincent2000. 
+
 On March 31, 2026, the npm package **axios** (100M+ weekly downloads) was compromised in a sophisticated supply chain attack. A hacker took over the lead maintainer's account, injected a phantom dependency that deploys a cross-platform RAT in 1.1 seconds, and the malware self-destructs to erase all evidence.
 
 This repo has everything you need to check if you're affected and protect yourself.
