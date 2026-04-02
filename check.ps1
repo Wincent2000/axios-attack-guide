@@ -102,3 +102,5 @@ if ($found) {
     Write-Host "  Set: npm config set min-release-age 3"
 }
 Write-Host "============================================" -ForegroundColor Cyan
+Write-Host "Scan is done. Close the window by pressing Enter." -ForegroundColor Yellow
+Read-Host | Out-Null
